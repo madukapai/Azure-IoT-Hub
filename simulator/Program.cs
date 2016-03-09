@@ -14,8 +14,8 @@ namespace simulator
     class Program
     {
         static RegistryManager registryManager;
-        static string connectionString = "HostName=sks-demo-iothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=OH/eB28iElMTVY8I2MLucAReOQd+kDXgr12XY3srMqs=";
-        static string iotHubUri = "sks-demo-iothub.azure-devices.net";
+        static string connectionString = "HostName=madukaiotlab.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=3mjzHmu+QNTFtxRcOkaZTAqtb6s+WslVjhsHu6DAmak=";
+        static string iotHubUri = "madukaiotlab.azure-devices.net";
         static string deviceId = null;
         static string deviceKey = null;
         static DeviceClient deviceClient = null;
